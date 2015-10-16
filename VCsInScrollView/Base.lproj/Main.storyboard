@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="Page0" id="BYZ-38-t0r" customClass="ViewController" customModule="VCsInScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8fq-q0-J1G">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8fq-q0-J1G" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="9ol-dE-6pO"/>
+                            <constraint firstAttribute="trailing" secondItem="8fq-q0-J1G" secondAttribute="trailing" id="M2J-0L-weM"/>
+                            <constraint firstItem="8fq-q0-J1G" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="cWQ-xT-bww"/>
+                            <constraint firstItem="8fq-q0-J1G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hq2-Yh-E5V"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="8fq-q0-J1G" id="JOk-7H-HGY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+        <!--Page One View Controller-->
+        <scene sceneID="Ff9-Mi-G9a">
+            <objects>
+                <viewController storyboardIdentifier="Page1" id="6m9-4X-Oh5" customClass="PageOneViewController" customModule="VCsInScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JoM-Cm-nCz"/>
+                        <viewControllerLayoutGuide type="bottom" id="ANK-zX-hqO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sef-NE-eYP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.099124061935470187" green="1" blue="0.00042425815660229738" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xqg-BB-WYG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="912" y="429"/>
+        </scene>
+        <!--Page Two View Controller-->
+        <scene sceneID="ar9-8U-BOY">
+            <objects>
+                <viewController storyboardIdentifier="Page2" id="sbg-WN-aBK" customClass="PageTwoViewController" customModule="VCsInScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vbg-wW-5gs"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Mi-Zz-mfu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kBC-RS-Npl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.92058004605705357" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gyo-iS-nKh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1538" y="429"/>
+        </scene>
+        <!--Page Three View Controller-->
+        <scene sceneID="qdH-kG-ICS">
+            <objects>
+                <viewController storyboardIdentifier="Page3" id="6Ab-yG-cNO" customClass="PageThreeViewController" customModule="VCsInScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tav-1d-j8a"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Xq-KH-ib6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0jM-FT-h53">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWH-dU-qQS">
+                                <rect key="frame" x="243" y="285" width="114" height="30"/>
+                                <state key="normal" title="Add Fourth View"/>
+                                <connections>
+                                    <action selector="addNextVC:" destination="6Ab-yG-cNO" eventType="touchUpInside" id="Y2k-qE-G6x"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.11075463683790698" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="VWH-dU-qQS" firstAttribute="centerY" secondItem="0jM-FT-h53" secondAttribute="centerY" id="Z0e-QH-7DL"/>
+                            <constraint firstItem="VWH-dU-qQS" firstAttribute="centerX" secondItem="0jM-FT-h53" secondAttribute="centerX" id="zwC-ek-Ucz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aio-Ey-7Ob" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2162" y="429"/>
+        </scene>
+        <!--Page Four View Controller-->
+        <scene sceneID="T2x-8d-dO0">
+            <objects>
+                <viewController storyboardIdentifier="Page4" id="Gr9-SZ-0jH" customClass="PageFourViewController" customModule="VCsInScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4t2-Rf-fj3"/>
+                        <viewControllerLayoutGuide type="bottom" id="s5B-md-bND"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vza-2C-xqx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.93034986623648841" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EBP-vS-JWV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2796" y="429"/>
+        </scene>
+    </scenes>
+</document>
